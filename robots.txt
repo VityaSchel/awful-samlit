@@ -1,0 +1,10 @@
+# Google, Yandex
+User-agent: Googlebot
+User-agent: Yandex
+Disallow: /assets/images/
+
+# Other
+User-agent: *
+Allow: /
+
+Sitemap: https://awfulsamlitwebsite.utidteam.com/sitemap.xml

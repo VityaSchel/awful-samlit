@@ -1,0 +1,17 @@
+span#N, span#U, span#B {
+  color: rgba(0,0,0,0.25);
+  font-weight: 100;
+  border-bottom: 1px dashed #000;
+}
+
+.tippy-box {
+  font-family: sans-serif;
+}
+
+@media screen and (orientation:portrait) {
+  .tippy-box {
+    font-size: 4.5vw;
+    border-radius: 3vw;
+    padding: 2vw;
+  }
+}

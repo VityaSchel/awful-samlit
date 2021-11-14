@@ -1,0 +1,68 @@
+@media screen and (orientation:portrait) {
+  body {
+    margin: 0;
+  }
+
+  div.centered {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: static;
+    transform: none;
+    padding: 20px;
+    word-break: break-word;
+    text-align: left;
+  }
+
+  .title {
+    font-size: 9vw;
+    margin-top: 0;
+  }
+
+  .bold-heading, p.regular-text, div.list p.regular-text {
+    font-size: 5vw;
+  }
+
+  .article-navigation > p {
+    font-size: 4.5vw;
+    text-align: left;
+  }
+
+  div.list p.regular-item, div.list div.image-wide {
+    margin-left: 0;
+  }
+
+  .heading-item {
+    font-size: 8vw;
+    margin-top: 15vw;
+  }
+
+  .image-wide img {
+    max-height: 50vh;
+  }
+
+  div.pic-text {
+    font-size: 4vw;
+  }
+
+  ul {
+    margin-left: 0;
+    font-size: 5vw;
+  }
+
+  .signature .signature-inner p {
+    font-size: 5vw;
+  }
+
+  pre.big-code-block {
+    box-sizing: border-box;
+    font-size: 4vw;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .scroll-loading {
+    width: max-content;
+    font-size: 4.5vw;
+  }
+}
